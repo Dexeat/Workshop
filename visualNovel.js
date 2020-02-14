@@ -965,7 +965,7 @@ function a7(){
 }
 function a8(){
 	display_perso(1,"billy","idle");
-	gris(4);parle(1);
+	gris(1);parle(4);
 	ecrit_text("C’est qui ce guignol qu’on voit dans la caméra ?");
 }
 function a9(){
@@ -1038,7 +1038,7 @@ function d3(){
     ecrit_text("Te voila dans un beau pétrin");
 }
 function d4(){
-	gris(4);
+	gris(1);
     parle(4);
     ecrit_text("Qu’est-ce que.. ? C’est qui dans ma tête? ");
 }
@@ -1137,7 +1137,7 @@ function d20(){
     ecrit_text("Chut ! pas si fort imbécile, trouvons le truc et barrons nous !");
 }
 function d21(){
-	display_perso(1, "sherif", "happy");
+	display_perso(1, "sherif", "idle");
 	gris(4);
     gris(3);
     parle(1);
@@ -1305,7 +1305,7 @@ function h2(){
 	parle(1);
     gris(3);
     gris(4);
-    ecrit_text(" Ah put***, je ne fonctionne plus maintenant a cause de toi.");
+    ecrit_text(" Super...je ne fonctionne plus maintenant a cause de toi.");
 }
 function h3(){
 	parle(4);
@@ -1371,7 +1371,7 @@ function k2(){
 }
 function k3(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(2, "magicien", "idle");
+    display_perso(2, "magicien", "happy");
     display_perso(3, "robot", "idle");
     display_perso(4, "billy", "idle");
     parle(2);
@@ -1498,7 +1498,7 @@ function n1(){
 }
 function n2(){
 	display_perso(1, "robot", "idle");
-    display_perso(4, "billy", "idle");
+    display_perso(4, "billy", "sad");
     parle(4);
     gris(1);
     ecrit_text("Qu’est ce que cette endroit?!Pourquoi ca n’a pas marché??Je veux partir, téléporte moi tout de suite!!!");
@@ -1731,7 +1731,7 @@ function p7(){
     ecrit_text("Juste un peu plus loin devant.");
 }
 function p8(){
-	display_perso(1, "réparateur", "idle");
+	display_perso(1, "réparateur1", "idle");
     display_perso(3, "robot", "idle");
     display_perso(4, "billy", "idle");
 	parle(1);
@@ -1746,7 +1746,7 @@ function p9(){
     ecrit_text("Faut nous réparer le bazooka.");
 }
 function p10(){
-	display_perso(1, "réparateur", "idle");
+	display_perso(1, "réparateur1", "idle");
     display_perso(3, "robot", "idle");
     display_perso(4, "billy", "idle");
     parle(3);
@@ -1786,7 +1786,7 @@ function p15(){
     display_perso(4, "void", "void");
 }
 function q1(){//6v v
-	display_perso(1, "réparateur", "idle");
+	display_perso(1, "réparateur1", "idle");
     display_perso(2, "champignon", "idle");
     display_perso(3, "robot", "idle");
     display_perso(4, "billy", "idle");
@@ -1832,7 +1832,7 @@ function q6(){
     ecrit_text("A bientot les copains");
 }
 function r1(){//6d v
-	display_perso(1, "réparateur", "idle");
+	display_perso(1, "réparateur1", "idle");
     display_perso(2, "champignon", "idle");
     display_perso(3, "robot", "idle");
     display_perso(4, "billy", "idle");
@@ -1916,7 +1916,7 @@ function s5(){
 }
 function t1(){
 	display_perso(1, "mechant", "idle");
-    display_perso(4, "billy", "idle");
+    display_perso(4, "billy", "sad");
     parle(4);
     gris(1);
     ecrit_text("Hein ? Mais.. brrr.. Où suis-je ?");
@@ -1957,7 +1957,7 @@ function t8(){
     ecrit_text("Cherche dans ses poches, puis montre le livre.");
 }
 function u1(){
-	display_perso(1, "mechant", "idle");
+	display_perso(1, "mechant", "angry");
     display_perso(3, "bazooka", "idle")
     display_perso(4, "billy", "idle");
     parle(1);
@@ -1973,7 +1973,7 @@ function u2(){
     display_perso(4, "void", "void");
 }
 function v1(){
-	display_perso(1, "mechant", "idle");
+	display_perso(1, "mechant", "happy");
     display_perso(4, "billy", "idle");
     parle(1);
     gris(4);
@@ -2052,7 +2052,7 @@ function v15(){
     ecrit_text("Rentres chez toi gamin maintenant.");
 }
 function w1(){
-	display_perso(1, "mechant", "idle");
+	display_perso(1, "mechant", "angry");
     display_perso(4, "billy", "idle");
     gris(1);
     parle(4);
