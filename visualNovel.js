@@ -1158,7 +1158,7 @@ function d21(){
 }
 function d22(){
 	display_perso(1, "shérif", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(4);
     gris(3);
@@ -1186,7 +1186,7 @@ function e1(){
 function e2(){
 
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(1);
     parle(4);
@@ -1206,7 +1206,7 @@ function e4(){
 }
 function e5(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(4);
     gris(3);
@@ -1215,7 +1215,7 @@ function e5(){
 }
 function e6(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(1);
     gris(3);
@@ -1224,7 +1224,7 @@ function e6(){
 }
 function e7(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(4);
     gris(3);
@@ -1233,7 +1233,7 @@ function e7(){
 }
 function e8(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(1);
     gris(4);
@@ -1254,7 +1254,7 @@ function e10(){
 	$('#button_play').addClass("e4v");
 }
 function f1(){
-	display_perso(1, "robot", "idle");
+	display_perso(1, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(1);
     parle(4);
@@ -1295,7 +1295,7 @@ function f7(){
 }
 function g1(){//E4a victoire
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(1);
@@ -1322,7 +1322,7 @@ function g4(){
 }
 function h1(){//E4a defaite
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(1);
@@ -1343,7 +1343,7 @@ function h3(){
 }
 
 function i1(){//E4d victoire
-	display_perso(1, "robot", "idle");
+	display_perso(1, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(4);
     parle(1);
@@ -1355,7 +1355,7 @@ function i2(){
     ecrit_text(" Super merci beaucoup ! On va pouvoir partir d’ici, maison, j'arriiiiive");
 }
 function j1(){//E4d victoire
-	display_perso(1, "robot", "idle");
+	display_perso(1, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(4);
     parle(1);
@@ -1384,7 +1384,7 @@ function j5(){
 }
 function k1(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(1);
@@ -1400,7 +1400,7 @@ function k2(){
 function k3(){
 	display_perso(1, "bazooka", "idle");
     display_perso(2, "magicien", "happy");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(2);
     gris(1);
@@ -1417,7 +1417,7 @@ function k4(){
 function k5(){
 	display_perso(1, "bazooka", "idle");
     display_perso(2, "magicien", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(2);
     gris(1);
@@ -1451,7 +1451,7 @@ function k8(){
 }
 function l1(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(1);
@@ -1467,7 +1467,7 @@ function l2(){
 
 function m1(){
 	display_perso(1, "bazooka", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(1);
@@ -1526,8 +1526,8 @@ function n1(){
 	ecrit_text("Sonné par la téléportation, vous ne voyez que un puissant rayon de soleil. Après s'être habitué à la luminosité ambiante il fut déçu de voir que ce n'était toujours pas chez lui.");
 }
 function n2(){
-	$("#background").css({"background-image": "url('assets/background/fondchampi.jpg')", "background-size": "800px"});
-	display_perso(1, "robot", "idle");
+
+	display_perso(1, "robot", "gentil");
     display_perso(4, "billy", "sad");
     parle(4);
     gris(1);
@@ -1554,7 +1554,7 @@ function n6(){
     ecrit_text("Quelle est cette endroit?Pourquoi ces champignons sont si gigantesques?");
 }
 function n7(){
-	display_perso(1, "robot", "idle");
+	display_perso(1, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(1);
     gris(4);
@@ -1604,7 +1604,7 @@ function n15(){
 }
 function o1(){
 	display_perso(1, "champignon", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(4);
@@ -1650,7 +1650,7 @@ function o7(){
 }
 function o8(){
 	display_perso(1, "réparateur", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(1);
     gris(4);
@@ -1659,7 +1659,7 @@ function o8(){
 }
 function o9(){
 	display_perso(1, "réparateur", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(4);
     gris(3);
@@ -1718,7 +1718,7 @@ function o17(){
 }
 function p1(){
 	display_perso(1, "champignon", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(4);
@@ -1763,7 +1763,7 @@ function p7(){
 }
 function p8(){
 	display_perso(1, "réparateur1", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
 	parle(1);
     gris(4);
@@ -1778,7 +1778,7 @@ function p9(){
 }
 function p10(){
 	display_perso(1, "réparateur1", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     parle(3);
     gris(4);
@@ -1820,7 +1820,7 @@ function p15(){
 function q1(){//6v v
 	display_perso(1, "réparateur1", "idle");
     display_perso(2, "champignon", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(4);
     parle(1);
@@ -1866,7 +1866,7 @@ function q6(){
 function r1(){//6d v
 	display_perso(1, "réparateur1", "idle");
     display_perso(2, "champignon", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(4);
     parle(1);
@@ -1912,7 +1912,7 @@ function r6(){
 function s1(){//6 d
 	display_perso(1, "réparateur", "idle");
     display_perso(2, "champignon", "idle");
-    display_perso(3, "robot", "idle");
+    display_perso(3, "robot", "gentil");
     display_perso(4, "billy", "idle");
     gris(4);
     parle(1);
