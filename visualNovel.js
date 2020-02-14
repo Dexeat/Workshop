@@ -940,7 +940,7 @@ function intro2(){
 	$('#button_play').addClass("e1");
 }
 function a1(){
-	$("#background").css({"background-image": "url('assets/background/zone52.jpg')", "background-size": "1000px"});
+	$("#background").css({"background-image": "url('assets/background/zone52.jpg')", "background-size": "800px"});
 	ecrit_text("Vous arrivez finalement à sortir de ce labyrinthe. Devant vous apparaît un large complexe de bâtiments entouré d’un vaste grillage lui même installé derrière une série de panneaux. Ce lieu vous fait penser à quelque chose, ça ne serait pas la zone 51 par hasard ?");
 }
 function a2(){
@@ -981,7 +981,10 @@ function a9(){
 	display_perso(4,"void","void");
 	ecrit_text("Vous pénétrez dans le bâtiment, la pièce dans laquelle vous arrivez et remplie de panneaux de commandes composés de voyants lumineux et de boutons de toutes sortes.");
 }
+	
+
 function a10(){
+	$("#background").css({"background-image": "url('assets/background/labo.jpg')", "background-size": "800px"});
 	display_perso(4,"billy","idle");
 	parle(4);
 	ecrit_text("Woaww c’est quoi cette endroit ?? Les autres me croiront jamais, il faut que je prenne un souvenir , tiens je vais prendre ce truc là sur la table.  *Prend un livre sur une table*  Vous vous approchez d’un des panneaux de commandes, lorsque une soudaine envie de toucher à tout fait son apparition.");
@@ -1025,14 +1028,13 @@ function c2(){
     ecrit_text("Il va partir ! Vite sécurité, envoyez le robot!");
 }
 function c3(){
-	//$("#background").css({"background-image": "url('assets/background/zone52.jpg')", "background-size": "1000px"});
-	//fond noir
 	display_perso(1, "void", "void");
     display_perso(4, "void", "void");
     ecrit_text("A cet instant, une large trappe que vous n’aviez pas remarqué s’enclenche sous vos pieds. Vous tombez dans une sorte de vortex ; aspiré par cette étrange force, vous serrez le bouquin dans vos bras. Vous n’avez pas vu qu'un petit robot vous avait rejoint dans votre chute.");
 }
 function d1(){
-	//$("#background").css({"background-image": "url('assets/background/zone52.jpg')", "background-size": "1000px"});
+		$("#background").css({"background-image": "url('assets/background/ENTREZ.jpg')", "background-size": "800px"});
+
 	ecrit_text("Vous arrivez dans monde gelé mais qui vous fait étrangement penser à univers Far West");
 }
 function d2(){
@@ -1089,7 +1091,8 @@ function d11(){
     ecrit_text("Okay");
 }
 function d12(){
-	//$("#background").css({"background-image": "url('assets/background/zone52.jpg')", "background-size": "1000px"});
+	$("#background").css({"background-image": "url('assets/background/ville.jpg')", "background-size": "800px"});
+
 	gris(4);
     parle(1);
     ecrit_text("Nous arrivons dans une ville. Il n’y a pas grand-monde, j’ai l’impression. C’est même carrément abandonné, si regarde il y’a une sorte de shérif la bas ! allons le voir.");
@@ -1174,12 +1177,14 @@ function d23(){
 }
 //E3 victoire
 function e1(){
+	$("#background").css({"background-image": "url('assets/background/grotte-intérieur.jpg')", "background-size": "800px"});
 	display_perso(1, "void", "void");
     display_perso(3, "void", "void");
     display_perso(4, "void", "void");
 	ecrit_text("Vous arrivez non loin d’une grotte, et apercevez un être étrange qui ressemble au mélange étonnant entre un canon et animal doté d’une certaine intelligence, vous vous approchez de lui pour l’interpeller.");
 }
 function e2(){
+
 	display_perso(1, "bazooka", "idle");
     display_perso(3, "robot", "idle");
     display_perso(4, "billy", "idle");
@@ -1521,6 +1526,7 @@ function n1(){
 	ecrit_text("Sonné par la téléportation, vous ne voyez que un puissant rayon de soleil. Après s'être habitué à la luminosité ambiante il fut déçu de voir que ce n'était toujours pas chez lui.");
 }
 function n2(){
+	$("#background").css({"background-image": "url('assets/background/fondchampi.jpg')", "background-size": "800px"});
 	display_perso(1, "robot", "idle");
     display_perso(4, "billy", "sad");
     parle(4);
@@ -1630,7 +1636,7 @@ function o5(){
     ecrit_text("C’est parti !");
 }
 function o6(){
-	//background ville champi
+	$("#background").css({"background-image": "url('assets/background/ville.jpg')", "background-size": "800px"});
 	parle(3);
     gris(4);
     gris(1);
@@ -1936,11 +1942,13 @@ function s4(){
     ecrit_text("*Tire et disparait dans un éclair*");
 }
 function s5(){
+
 	display_perso(1, "réparateur", "idle");
     parle(1);
     ecrit_text("Bon bah c’ est plus mon problème");
 }
 function t1(){
+	$("#background").css({"background-image": "url('assets/background/labo.jpg')", "background-size": "800px"});
 	display_perso(1, "mechant", "idle");
     display_perso(4, "billy", "sad");
     parle(4);
