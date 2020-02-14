@@ -5,7 +5,7 @@ var textOn = {value: 0};
 //cette variable sera altérée par les minijeux anoçant la victoire ou la défaite du joueur
 var result = {value: 0};
 var nbr = {value: 0};
-var letter = {value: "b"};//a CHANGER
+var letter = {value: "intro"};//a CHANGER
 display_perso(1,"void","void");
 display_perso(2,"void","void");
 display_perso(3,"void","void");
@@ -2189,7 +2189,7 @@ $('main').on('click','#button_play.e1',function(){
 	$('#button_play').removeClass('e1');
 
 	let l_score = 0;
-	$('#pop').css("background-color","red")
+	$('#pop').css("background-color","white");
 	ecrit_text_popup("un labyrinthe ?");
 	$("#container_pop").css("visibility","visible")
 	$('#element1_img').css({'position': 'absolute','top': '200px','left': '720px','height': '60px','width': '60px;','visibility': 'visible','display': 'block'}).attr("src","assets/symbole/flecheD.png");

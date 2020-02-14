@@ -75,7 +75,7 @@
 	display: none;
 	position: absolute;
 	height: 80px;
-	background-color: red;
+	background-color: black;
 	width: 500px;
 	left: 150px;
 	top : 480px;
@@ -113,7 +113,7 @@ input{
 	width:750px;
 	background-color: rgba(255,255,255,0.5);
 	border-style: solid;
-	border-color: red;
+	border-color: black;
 }
 
 #text_pop {
