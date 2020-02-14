@@ -19,12 +19,12 @@
 }
 #perso2_img{
 	position:absolute;
-	top: 180px;
+	top: 80px;
 	left: 100px;
 }
 #perso3_img{
 	position:absolute;
-	top: 180px;
+	top: 80px;
 	left: 300px;
 }
 #perso4_img{
@@ -121,7 +121,7 @@ input{
 	overflow: auto;
 }
 .gray{
-	filter: grayscale(100%);
+	filter: grayscale(50%);
 }
 .parle{
 	transition-duration: 0.5s;

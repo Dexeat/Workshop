@@ -213,38 +213,128 @@ function realisateur(event){
 					}
 					break;
 				case ("e"):
-					if (nbr.value < 2){
+					if (nbr.value < 10){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							e(1);
+							break;
+						case 2:
+							e(2);
+							break;
+						case 3:
+							e(3);
+							break;
+						case 4:
+							e(4);
+							break;
+						case 5:
+							e(5);
+							break;
+						case 6:
+							e(6);
+							break;
+						case 7:
+							e(7);
+							break;
+						case 8:
+							e(8);
+							break;
+						case 9:
+							e(9);
+							break;
+						case 10:
+							e(10);
+							if (result.value == 1){
+								letter.value = "g";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e4v");
+							}else if (result.value == 2) {
+								letter.value = "h";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e4v");
+							}
 							break;
 					}
 					break;
 				case ("f"):
-					if (nbr.value < 2){
+					if (nbr.value < 7){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							f(1);
+							break;
+						case 2:
+							f(2);
+							break;
+						case 3:
+							f(3);
+							break;
+						case 4:
+							f(4);
+							break;
+						case 5:
+							f(5);
+							break;
+						case 6:
+							f(6);
+							break;
+						case 7:
+							f(7);
+							if (result.value == 1){
+								letter.value = "e";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e4d");
+							}else if (result.value == 2) {
+								letter.value = "f";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e4d");
+							}
 							break;
 					}
 					break;
 				case ("g"):
-					if (nbr.value < 2){
+					if (nbr.value < 4){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							g(1);
+							break;
+						case 2:
+							g(2);
+							break;
+						case 3:
+							g(3);
+							break;
+						case 4:
+							g(4);
+							nbr.value = 0;
+							letter.value = "k";
 							break;
 					}
 					break;
 				case ("h"):
-					if (nbr.value < 2){
+					if (nbr.value < 3){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							h(1);
+							break;
+						case 2:
+							h(2);
+							break;
+						case 3:
+							h(3);
+							nbr.value = 0;
+							letter.value = "k";
 							break;
 					}
 					break;
@@ -254,24 +344,78 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
+							i(1);
+							break;
+						case 2:
+							i(2);
+							nbr.value = 0;
+							letter.value = "k";
 							break;
 					}
 					break;
 				case ("j"):
-					if (nbr.value < 2){
+					if (nbr.value < 5){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							j(1);
+							break;
+						case 2:
+							j(2);
+							break;
+						case 3:
+							j(3);
+							break;
+						case 4:
+							j(4);
+							break;
+						case 5:
+							j(5);
+							nbr.value = 0;
+							letter.value = "k";
 							break;
 					}
 					break;
 				case ("k"):
-					if (nbr.value < 2){
+					if (nbr.value < 8){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							k(1);
+							break;
+						case 2:
+							k(2);
+							break;
+						case 3:
+							k(3);
+							break;
+						case 4:
+							k(4);
+							break;
+						case 5:
+							k(5);
+							break;
+						case 6:
+							k(6);
+							break;
+						case 7:
+							k(7);
+							break;
+						case 8:
+							k(8);
+							if (result.value == 1){
+								letter.value = "l";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e5");
+							}else if (result.value == 2) {
+								letter.value = "m";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e5");
+							}
 							break;
 					}
 					break;
@@ -281,60 +425,496 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
+							l1();
+							break;
+						case 2:
+							l2();
+							nbr.value = 0;
+							letter.value = "n";
 							break;
 					}
 					break;
 				case ("m"):
-					if (nbr.value < 2){
+					if (nbr.value < 9){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							m(1);
+							break;
+						case 2:
+							m(2);
+							break;
+						case 3:
+							m(3);
+							break;
+						case 4:
+							m(4);
+							break;
+						case 5:
+							m(5);
+							break;
+						case 6:
+							m(6);
+							break;
+						case 7:
+							m(7);
+							break;
+						case 8:
+							m(8);
+							break;
+						case 9:
+							m(9);
+							nbr.value = 0;
+							letter.value = "n";
 							break;
 					}
 					break;
 				case ("n"):
-					if (nbr.value < 2){
+					if (nbr.value < 15){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							n1();
+							break;
+						case 2:
+							n2();
+							break;
+						case 3:
+							n3();
+							break;
+						case 4:
+							n4();
+							break;
+						case 5:
+							n5();
+							break;
+						case 6:
+							n6();
+							break;
+						case 7:
+							n7();
+							break;
+						case 8:
+							n8();
+							break;
+						case 9:
+							n9();
+							break;
+						case 10:
+							n10();
+							break;
+						case 11:
+							n11();
+							break;
+						case 12:
+							n12();
+							break;
+						case 13:
+							n13();
+							break;
+						case 14:
+							n14();
+							break;
+						case 15:
+							n15();
+							if (result.value == 1){ //result.value n'a pas changé
+								letter.value = "o";
+								nbr.value = 0;				
+							}else if (result.value == 2) {
+								letter.value = "p";
+								nbr.value = 0;				
+							}
 							break;
 					}
 					break;
 				case ("o"):
-					if (nbr.value < 2){
+					if (nbr.value < 17){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							o1();
+							break;
+						case 2:
+							o2();
+							break;
+						case 3:
+							o3();
+							break;
+						case 4:
+							o4();
+							break;
+						case 5:
+							o5();
+							break;
+						case 6:
+							o6();
+							break;
+						case 7:
+							o7();
+							break;
+						case 8:
+							o8();
+							break;
+						case 9:
+							o9();
+							break;
+						case 10:
+							o10();
+							break;
+						case 11:
+							o11();
+							break;
+						case 12:
+							o12();
+							break;
+						case 13:
+							o13();
+							break;
+						case 14:
+							o14();
+							break;
+						case 15:
+							o15();
+							break;
+						case 16:
+							o16();
+							break;
+						case 17:
+							o17();
+							if (result.value == 1){
+								letter.value = "q";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e6v");
+							}else if (result.value == 2) {
+								letter.value = "s";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e6v");
+							}
 							break;
 					}
 					break;
 				case ("p"):
-					if (nbr.value < 2){
+					if (nbr.value < 15){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							p1();
 							break;
-					}
+						case 2:
+							p2();
+							break;
+						case 3:
+							p3();
+							break;
+						case 4:
+							p4();
+							break;
+						case 5:
+							p5();
+							break;
+						case 6:
+							p6();
+							break;
+						case 7:
+							p7();
+							break;
+						case 8:
+							p8();
+							break;
+						case 9:
+							p9();
+							break;
+						case 10:
+							p10();
+							break;
+						case 11:
+							p11();
+							break;
+						case 12:
+							p12();
+							break;
+						case 13:
+							p13();
+							break;
+						case 14:
+							p14();
+							break;
+						case 15:
+							p15();
+							if (result.value == 1){
+								letter.value = "r";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e6d");
+							}else if (result.value == 2) {
+								letter.value = "s";
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e6d");
+							}
+							break;
+					}		
 					break;
 				case ("q"):
-					if (nbr.value < 2){
+					if (nbr.value < 6){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							q1();
+							break;
+						case 2:
+							q2();
+							break;
+						case 3:
+							q3();
+							break;
+						case 4:
+							q4();
+							break;
+						case 5:
+							q5();
+							break;
+						case 6:
+							q6();
+							nbr.value = 0;
+							letter.value = "t";
 							break;
 					}
 					break;
 				case ("r"):
+					if (nbr.value < 6){
+						nbr.value++;
+					}
+					switch (nbr.value){
+						case 1:
+							r1();
+							break;
+						case 2:
+							r2();
+							break;
+						case 3:
+							r3();
+							break;
+						case 4:
+							r4();
+							break;
+						case 5:
+							r5();
+							break;
+						case 6:
+							r6();
+							nbr.value = 0;
+							letter.value = "t";
+							break;
+					}
+					break;
+				case ("s"):
+					if (nbr.value < 5){
+						nbr.value++;
+					}
+					switch (nbr.value){
+						case 1:
+							s1();
+							break;
+						case 2:
+							s2();
+							break;
+						case 3:
+							s3();
+							break;
+						case 4:
+							s4();
+							break;
+						case 5:
+							s5();
+							nbr.value = 0;
+							letter.value = "t";
+							break;
+					}
+					break;
+				case ("t"):
+					if (nbr.value < 8){
+						nbr.value++;
+					}
+					switch (nbr.value){
+						case 1:
+							t1();
+							break;
+						case 2:
+							t2();
+							break;
+						case 3:
+							t3();
+							break;
+						case 4:
+							t4();
+							break;
+						case 5:
+							t5();
+							break;
+						case 6:
+							t6();
+							break;
+						case 7:
+							t7();
+							break;
+						case 8:
+							t8();
+							if (result.value == 1){ //result.value n'a pas changé
+								letter.value = "u";
+								nbr.value = 0;				
+							}else if (result.value == 2) {
+								letter.value = "v";
+								nbr.value = 0;				
+							}
+							break;
+					}
+					break;
+				case ("u"):
 					if (nbr.value < 2){
 						nbr.value++;
 					}
 					switch (nbr.value){
 						case 1:
+							u1();
+							break;
+						case 2:
+							u2();
+							if (result.value == 1){
+								letter.value = "w";//fin bonne
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e7");
+							}else if (result.value == 2) {
+								letter.value = "x";//fin mauvaise
+								nbr.value = 0;
+								$('#button_play').css("display", "none");
+								$('#button_play').removeClass("e7");
+							}
+							break;
+					}
+					break;
+				case ("v"):
+					if (nbr.value < 15){
+						nbr.value++;
+					}
+					switch (nbr.value){
+						case 1:
+							v1();
+							break;
+						case 2:
+							v2();
+							break;
+						case 3:
+							v3();
+							break;
+						case 4:
+							v4();
+							break;
+						case 5:
+							v5();
+							break;
+						case 6:
+							v6();
+							break;
+						case 7:
+							v7();
+							break;
+						case 8:
+							v8();
+							break;
+						case 9:
+							v9();
+							break;
+						case 10:
+							v10();
+							break;
+						case 11:
+							v11();
+							break;
+						case 12:
+							v12();
+							break;
+						case 13:
+							v13();
+							break;
+						case 14:
+							v14();
+							break;
+						case 15:
+							v15();
+							break;
+					}
+					break;
+				case ("w"):
+					if (nbr.value < 8){
+						nbr.value++;
+					}
+					switch (nbr.value){
+						case 1:
+							v1();
+							break;
+						case 2:
+							v2();
+							break;
+						case 3:
+							v3();
+							break;
+						case 4:
+							v4();
+							break;
+						case 5:
+							v5();
+							break;
+						case 6:
+							v6();
+							break;
+						case 7:
+							v7();
+							break;
+						case 8:
+							v8();
+							break;
+					}
+					break;
+				case ("x"):
+					if (nbr.value < 9){
+						nbr.value++;
+					}
+					switch (nbr.value){
+						case 1:
+							v1();
+							break;
+						case 2:
+							v2();
+							break;
+						case 3:
+							v3();
+							break;
+						case 4:
+							v4();
+							break;
+						case 5:
+							v5();
+							break;
+						case 6:
+							v6();
+							break;
+						case 7:
+							v7();
+							break;
+						case 8:
+							v8();
+							break;
+						case 9:
+							v9();
 							break;
 					}
 					break;
@@ -564,19 +1144,1003 @@ function d21(){
     ecrit_text("Tenez je vous donne les différents éléments pour le trouver, si vous y parvenez dans le temps imparti, vous allez réussir à trouver l’endroit où il se trouve. Sinon ...");
 }
 function d22(){
-	ecrit_text("");
-	$('#button_play').css("display", "block");
+	display_perso(1, "shérif", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(4);
+    gris(3);
+    parle(1);
+    ecrit_text("Aide moi a trouver les différentes pièces du bazooka. Clique sur les différentes choses qui te paraissent bizarres ");
+    $('#button_play').css("display", "block");
 	$('#button_play').addClass("e3");
 }
-/*function a2(){
-	
+//E3 victoire
+function e1(){
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+	ecrit_text("Vous arrivez non loin d’une grotte, et apercevez un être étrange qui ressemble au mélange étonnant entre un canon et animal doté d’une certaine intelligence, vous vous approchez de lui pour l’interpeller.");
 }
-function a2(){
-	
+function e2(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(1);
+    parle(4);
+    ecrit_text("Hého ! Je cherche un machin qui peut créer des portails, il est dans le coin apparemment. Vous ne l’auriez pas vu par hasard ?");
 }
-function a2(){
-	
-}*/
+function e3(){
+	parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text(" * soupir * ");
+}
+function e4(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("C’est moi que vous cherchez, vous voulez aller où ? ");
+}
+function e5(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(3);
+    gris(1);
+    ecrit_text("Je cherche à partir de ce monde et à rentrer chez moi");
+}
+function e6(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("Très bien, mais attention: il faut pouvoir m’ utiliser de manière correcte.La précision du portail que je crée dépend aussi de la précision de mon utilisateur, ça n’ est pas aussi simple que vous ne le pensez, croyez moi.Si vous tremblez lors de la mise à feu, le portail risque d’ être un peu instable, bon j’ ai parfois l’ impression que comprendre des trucs c’ est pas trop votre domaine");
+}
+function e7(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(3);
+    gris(1);
+    ecrit_text("Un domaine genre l'endroit où on habite ? ");
+}
+function e8(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(1);
+    gris(4);
+    ecrit_text("Bon bref, vous voyez les cibles là - bas ? Il vous faudra toucher leur centre le plus de fois possible.Si vous réussissez, il n’ y aura aucun problème pour que j’ active le portail; sinon, je ne serai malheureusement d’ aucune utilité.");
+}
+function e9(){
+	parle(4);
+    gris(3);
+    gris(1);
+    ecrit_text("Euh très bien je vous prends et je vais au stand de tir");
+}
+function e10(){
+	$('#button_play').css("display", "block");
+	$('#button_play').addClass("e4v");
+}
+function f1(){
+	display_perso(1, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(1);
+    parle(4);
+    ecrit_text("Hého ! Je cherche un animal qui peut créer des portails, il est dans le coin apparemment. Vous ne l’auriez pas vu par hasard ? ");
+}
+function f2(){
+    gris(4);
+    parle(1);
+    ecrit_text(" Il n’y a personne ");
+}
+function f3(){
+    gris(1);
+    parle(4);
+    ecrit_text("Regarde là-bas! ");
+}
+function f4(){
+    gris(4);
+    parle(1);
+    ecrit_text(" Ca ne ressemble pas à… ");
+}
+function f5(){
+    gris(1);
+    parle(4);
+    ecrit_text("Il est en morceaux!");
+}
+function f6(){
+    gris(4);
+    parle(1);
+    ecrit_text("Récupère les on va essayer de le réparer");
+}
+function f7(){
+	$('#button_play').css("display", "block");
+	$('#button_play').addClass("e4d");
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+}
+function g1(){//E4a victoire
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text(" Incroyable, tu as réussi le test de tir");
+}
+function g2(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text(" Très bien je vous accompagne, de toute façon en tant que canon je suis habitué à travailler avec des boulets ");
+}
+function g3(){
+	parle(4);
+    gris(3);
+    gris(1);
+    ecrit_text("Que dois-je faire désormais ?");
+}
+function g4(){
+    parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text(" Maintenant suivez-moi, il existe un endroit où mon utilisation se fait de manière encore plus efficace, comme cela vous allez arriver plus précisément à l’endroit que vous désirez ");
+}
+function h1(){//E4a defaite
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text(" Aie, tu as raté l’épreuve de tir… Bon, en soi, ce n’est pas vraiment étonnant.");
+}
+function h2(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text(" Ah put***, je ne fonctionne plus maintenant a cause de toi.");
+}
+function h3(){
+	parle(4);
+    gris(3);
+    gris(1);
+    ecrit_text("C’était trop compliqué pour moi désolé...je te garde quand meme,meme si tu ne marche plus.");
+}
+
+function i1(){//E4d victoire
+	display_perso(1, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(4);
+    parle(1);
+    ecrit_text(" Les pièces semblent s'emboîter parfaitement c’est très bien. (Pour une fois)");
+}
+function i2(){
+	gris(1);
+    parle(4);
+    ecrit_text(" Super merci beaucoup ! On va pouvoir partir d’ici, maison, j'arriiiiive");
+}
+function j1(){//E4d victoire
+	display_perso(1, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(4);
+    parle(1);
+    ecrit_text("Les pièces commencent à s'emboîter de manière correcte pour que finalement ça.. ressemble à un bazooka monté à l’envers. C’est étrange il me semble qu’il manque quelque chose tu as bien mis le carburateur?");
+    
+}
+function j2(){
+	gris(1);
+    parle(4);
+    ecrit_text(" Bah oui , tu me prend pour qui? *regarde à côté*");
+}
+function j3(){
+	gris(1);
+    parle(4);
+    ecrit_text("*regarde à côté* A non mince elle est là…");
+}
+function j4(){
+	gris(4);
+    parle(1);
+    ecrit_text("C’est pas vrai…");
+}
+function j5(){
+	gris(1);
+    parle(4);
+    ecrit_text("Tant pis le mal est fait, on le garde au cas où même si il est totalement inutilisable en l’état.");
+}
+function k1(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text("Tu ne peux même pas utiliser ton bazooka... tu vas rester dans ce monde étrange tout le reste de ta vie. Je vais une nouvelle fois vous aider... je vais demander à un ami de vous aider. Ne bougez pas SURTOUT pas !");
+}
+function k2(){
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+    ecrit_text("* Un mage apparaît soudainement des hautes herbes! *");
+}
+function k3(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(2, "magicien", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(2);
+    gris(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Alors c’est vous?!Mais comment une personne comme vous a réussi à arriver ici??!Bref ne me répondez pas on a pas beaucoup de temps. Je n’ai pas les capacités pour vous envoyer dans votre monde mais je peux vous envoyer dans un autre qui sera plus sûr qu’ici,enfin j'espère.Ecartez vous je vais lancer l’incantation !!");
+}
+function k4(){
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+    ecrit_text("* Ouverture d'un portail *")
+}
+function k5(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(2, "magicien", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(2);
+    gris(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Voilà, allez y je ne tiendrai pas longtemps.Par contre faite attention à vous, je vous envoie dans… ");
+}
+function k6(){
+	parle(4);
+    gris(1);
+    gris(2);
+    gris(3);
+    ecrit_text("Okay merciiiii.... * Fonce dans le portail ");
+}
+function k7(){
+	display_perso(2, "magicien", "idle");
+    display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+    parle(2);
+    ecrit_text("Un coeur de volcan… ");
+}
+
+function k8(){
+	$('#button_play').css("display", "block");
+	$('#button_play').addClass("e5");
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+}
+function l1(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text(" Bravo tu as réussis ! On va maintenant se téléporter chez nous.");
+}
+function l2(){
+	parle(4);
+    gris(1);
+    gris(3);
+    ecrit_text("C’est assez simple au final pas de quoi s’inquiéter ");
+}
+
+function m1(){
+	display_perso(1, "bazooka", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text(" Bravo ,tu est irrécupérable...tu a fait quoi avec cet engin???  ");
+}
+function m2(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("MIAOU !");
+}
+function m3(){
+	parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text("Qu’attends tu ?! Utilises ton arme!! Téléportes nous chez nous!");
+}
+function m4(){
+	parle(4);
+    gris(1);
+    gris(3);
+    ecrit_text("Enfin fini toute cette histoire, je commençais à en avoir marre…");
+}
+function m5(){
+	parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text("Pourquoi l’arme se mets a trembler ,à rougir et à surchauffer ce n’est pas normal.");
+}
+function m6(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("MIAOU !*tire une flasque mauve sur le sol*");
+}
+function m7(){
+	parle(3);
+    gris(1);
+    gris(4);
+    ecrit_text("Attend on ne sait même pas ou ça peut nous mener, est-tu vraiment sûr de vouloir prendre le risque???");
+}
+function m8(){
+	parle(4);
+    gris(1);
+    gris(3);
+    ecrit_text("Absolument je veux rentrer chez moi!");
+}
+function m9(){
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+    ecrit_text("* Ouverture d'un portail *")
+}
+function n1(){
+	ecrit_text("Sonné par la téléportation, vous ne voyez que un puissant rayon de soleil. Après s'être habitué à la luminosité ambiante il fut déçu de voir que ce n'était toujours pas chez lui.");
+}
+function n2(){
+	display_perso(1, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(1);
+    ecrit_text("Qu’est ce que cette endroit?!Pourquoi ca n’a pas marché??Je veux partir, téléporte moi tout de suite!!!");
+}
+function n3(){
+	parle(1);
+    gris(4);
+    ecrit_text("Calme toi !Je suis coincé avec toi donc on va s’en sortir tout les deux ensemble.");
+}
+function n4(){
+	gris(1);
+    parle(4);
+    ecrit_text("Promis?");
+}
+function n5(){
+	parle(1);
+    gris(4);
+    ecrit_text("Oui je ne repartirais pas sans toi, tu peux me croire");
+}
+function n6(){
+	parle(4);
+    gris(1);
+    ecrit_text("Quelle est cette endroit?Pourquoi ces champignons sont si gigantesques?");
+}
+function n7(){
+	display_perso(1, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(1);
+    gris(4);
+    ecrit_text("Je ne sais pas mais méfie toi, on ne sait jamais. Re-tire avec ton bazooka fait nous partir d’ici");
+}
+function n8(){
+	parle(4);
+    gris(1);
+    ecrit_text("J’essaye mais ça ne marche pas, on dirait qu’il a besoin d’une autre recharge ou bien qu'il est cassé ");
+}
+function n9(){
+	parle(1);
+    gris(4);
+    ecrit_text("Et où allons nous trouver ça ?? ");
+}
+function n10(){
+	parle(4);
+    gris(1);
+    ecrit_text("Ohh regarde par terre !!Qu’es ce que c’est ? ");
+}
+function n11(){
+	parle(1);
+    gris(4);
+    ecrit_text("EH OH tu m'écoutes??")
+}
+function n12(){
+	display_perso(1, "void", "void");
+    display_perso(4, "void", "void");
+    ecrit_text("Vous attrapez le champignon, celui-ci semble résister. Vous tirez plus fort puis vous voyez une tête émerger du sol, puis un corps et des jambes. Apparaît devant vous un grand bonhomme coiffé d’un champignon en guise de chapeau.");
+}
+function n13(){
+	display_perso(1, "champignon", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(1);
+    ecrit_text("Ohh nobles voyageurs merci de m’avoir sorti de ma tourmente!!");
+}
+function n14(){
+	parle(4);
+    gris(1);
+    ecrit_text("AAAAH ! Un champignon qui parle ?!");
+}
+function n15(){
+	parle(4);
+    gris(1);
+    ecrit_text("Bien-sûr ! Vous êtes à la champiflammière, un lieu magique où nous y habitons. J'ai maintenant une dette envers vous.");
+}
+function o1(){
+	display_perso(1, "champignon", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("Effectivement, nous avons besoin de savoir ou trouver une recharge pour notre bazooka.");
+}
+function o2(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("Je ne peux pas vous aider,du moins le mieux que je puisse faire c’est vous emmener à la prochaine ville vous trouverez forcément votre recharge.");
+}
+function o3(){
+	parle(4);
+    gris(1);
+    gris(3);
+    ecrit_text("Très bien ,on vous suit alors.");
+}
+function o4(){
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("En espérant qu’on ai de la chance.")
+}
+function o5(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("C’est parti !");
+}
+function o6(){
+	//background ville champi
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("Alors ou est-il ce meccano de génie??");
+}
+function o7(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("Juste un peu plus loin devant.");
+}
+function o8(){
+	display_perso(1, "réparateur", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Bonjour, voyageurs que puis-je faire pour vous? ");
+}
+function o9(){
+	display_perso(1, "réparateur", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(3);
+    gris(1);
+    ecrit_text("Il nous faut une batterie !");
+}
+function o10(){
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("Ce que mon collègue essaye (habilement) de vous dire c’est qu’on désire une recharge pour notre bazooka. ");
+}
+function o11(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Je vais voir ce que je peux faire...Humm ca va être compliqué ce n'est pas une simple batterie je vais voir...");
+}
+function o12(){
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("On en a besoin absolument besoin");
+}
+function o13(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("C’est possible mais dangereux et compliqué si vous faites un mauvais mouvement s’en ai fini de votre bazooka.");
+}
+function o14(){
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("OK, dis nous ce qu’on doit faire");
+}
+function o15(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Je vous explique.");
+}
+function o16(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Vous voyez cette boîte ? Elle contient ce dont vous avez besoins mais impossible pour moi de l'ouvrir... Si Vous faites trop de mouvements, la boîte risque d'exploser !");
+}
+function o17(){
+	$('#button_play').css("display", "block");
+	$('#button_play').addClass("e6v");
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+}
+function p1(){
+	display_perso(1, "champignon", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("Effectivement, nous avons besoin de savoir comment réparer notre bazooka");
+}
+function p2(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("Je ne le connais pas personnellement mais il y a un reparateur qui se trouve dans la ville la plus proche.");
+}
+function p3(){
+	parle(4);
+    gris(1);
+    gris(3);
+    ecrit_text("Très bien ,on vous suit alors.");
+}
+function p4(){
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("En espérant qu’on ai de la chance");
+}
+function p5(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("C’est parti !");
+}
+function p6(){
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("Alors ou est-il ce meccano de génie??");
+}
+function p7(){
+	parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("Juste un peu plus loin devant.");
+}
+function p8(){
+	display_perso(1, "réparateur", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Bonjour, voyageurs que puis-je faire pour vous? ");
+}
+function p9(){
+	parle(4);
+    gris(3);
+    gris(1);
+    ecrit_text("Faut nous réparer le bazooka.");
+}
+function p10(){
+	display_perso(1, "réparateur", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("Ce que mon collègue essaye (habilement) de vous demander c’est est-ce qu’il est possible pour vous de réparer notre équipement?");
+}
+function p11(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Je vais voir ce que je peux faire...Humm ca va être compliqué.");
+}	
+function p12(){
+	parle(3);
+    gris(4);
+    gris(1);
+    ecrit_text("OK, dis nous ce qu’on doit faire");
+}
+function p13(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Je vous explique..");
+}
+function p14(){
+	parle(1);
+    gris(4);
+    gris(3);
+    ecrit_text("Il faut que vous réussissiez à revisser votre machin, mais attention, si vous faite trop de trous, ça sera irréparable !");
+}
+function p15(){
+	$('#button_play').css("display", "block");
+	$('#button_play').addClass("e6d");
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+}
+function q1(){//6v v
+	display_perso(1, "réparateur", "idle");
+    display_perso(2, "champignon", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text("Bravo, vous avez parfaitement bien travaillé. Voilà pour vous votre bazooka comme neuf.");
+}
+function q2(){
+	gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text("Super on va pouvoir repartir chez nous!!");
+}
+function q3(){
+	gris(4);
+    parle(3);
+    gris(1);
+    gris(2);
+    ecrit_text("Oui enfin si ça marche. Merci de nous aider. Allez gogole active le portail.");
+}
+function q4(){
+	gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text("Avec plaisir,faite attention à vous.");
+}
+function q5(){
+	gris(4);
+    parle(2);
+    gris(3);
+    gris(1);
+    ecrit_text("Merci encore à vous de m’avoir sauvé");
+}
+function q6(){
+	gris(1);
+    parle(4);
+    gris(3);
+    gris(2);
+    ecrit_text("A bientot les copains");
+}
+function r1(){//6d v
+	display_perso(1, "réparateur", "idle");
+    display_perso(2, "champignon", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text("Bravo, vous avez parfaitement bien travaillé. Voilà pour vous votre bazooka comme neuf.");
+}
+function r2(){
+	gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text("Super on va pouvoir repartir chez nous!!");
+}
+function r3(){
+	gris(4);
+        parle(3);
+        gris(1);
+        gris(2);
+        ecrit_text("Oui enfin si ça marche. Merci de nous aider. Allez gogole active le portail.");
+}
+function r4(){
+	gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text("Avec plaisir,faite attention à vous.");
+}
+function r5(){
+	gris(4);
+    parle(2);
+    gris(3);
+    gris(1);
+    ecrit_text("Merci encore à vous de m’avoir sauvé");
+}
+function r6(){
+	gris(1);
+    parle(4);
+    gris(3);
+    gris(2);
+    ecrit_text("A bientot les copains");
+}
+function s1(){//6 d
+	display_perso(1, "réparateur", "idle");
+    display_perso(2, "champignon", "idle");
+    display_perso(3, "robot", "idle");
+    display_perso(4, "billy", "idle");
+    gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text(" Oulaah, mais c’est quoi ce travail d’amateur ?!");
+}
+function s2(){
+	gris(4);
+    parle(1);
+    gris(3);
+    gris(2);
+    ecrit_text("ça fera parfaitement l’affaire, aller, RETOUR MAISON ! *Point le bazooka par terre* ");
+}
+function s3(){
+	gris(4);
+    parle(2);
+    gris(1);
+    gris(3);
+    ecrit_text("Tu es sûr que c’est une bonne idée ? ");
+}
+function s4(){
+	display_perso(1, "void", "void");
+    display_perso(2, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+    ecrit_text("*Tire et disparait dans un éclair*");
+}
+function s5(){
+	display_perso(1, "réparateur", "idle");
+    parle(1);
+    ecrit_text("Bon bah c’ est plus mon problème");
+}
+function t1(){
+	display_perso(1, "mechant", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(1);
+    ecrit_text("Hein ? Mais.. brrr.. Où suis-je ?");
+}
+function t2(){
+	gris(4);
+    parle(1);
+    ecrit_text("Et bien et bien.. Qu’avons-nous là ? Notre cher cobaye est revenu à la maison ");
+}
+function t3(){
+	parle(4);
+    gris(1);
+    ecrit_text("Un cobaye ?  où ? Je vois pas de rat ?! hein ?! T’es qui ? ");
+}
+function t4(){
+	parle(1);
+    gris(4);
+    ecrit_text("Je suis le chef de la zone 52, tu m’as dérobé quelque chose qui m’appartient !");
+}
+function t5(){
+	parle(4);
+    gris(1);
+    ecrit_text("Des robes ? J’ai pas ça moi.");
+}
+function t6(){
+	parle(1);
+    gris(4);
+    ecrit_text("Non, dérobé du verb.. Bon.. TU M’AS PRIS QUELQUE CHOSE, RENDS LE MOI !");
+}
+function t7(){
+	parle(4);
+    gris(1);
+    ecrit_text("uh ? ça ?");
+}
+function t8(){
+	gris(1);
+    gris(4);
+    ecrit_text("Cherche dans ses poches, puis montre le livre.");
+}
+function u1(){
+	display_perso(1, "mechant", "idle");
+    display_perso(3, "bazooka", "idle")
+    display_perso(4, "billy", "idle");
+    parle(1);
+    gris(3);
+    gris(4);
+    ecrit_text("Viens le chercher !");
+}
+function u2(){
+	$('#button_play').css("display", "block");
+	$('#button_play').addClass("e7");
+	display_perso(1, "void", "void");
+    display_perso(3, "void", "void");
+    display_perso(4, "void", "void");
+}
+function v1(){
+	display_perso(1, "mechant", "idle");
+    display_perso(4, "billy", "idle");
+    parle(1);
+    gris(4);
+    ecrit_text("Oui, ça ! Si tu me le donne gentillement, tout se passera bien pour toi.");
+}
+function v2(){
+	gris(1);
+    parle(4);
+    ecrit_text("C’est à moi ! Donner c’est donner, repeindre ses volets !");
+}
+function v3(){
+	parle(1);
+    gris(4);
+    ecrit_text("Mais c’est toi que  je vais repeindre oui ! Et puis.. ou tu le donne ou je te tue !");
+}
+function v4(){
+	parle(4);
+    gris(1);
+    ecrit_text("Oh ouais non mais si les gens trichent aussi..");
+}
+function v5(){
+	parle(1);
+    gris(4);
+    ecrit_text("Ooh Oh, le petit ne se révolte même pas ? Bon fini de jouer ! GAAAAAAAAAAARDES!");
+}
+function v6(){
+	display_perso(1, "mechant", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(1);
+    ecrit_text("C'est terminé maintenant ?");
+}
+function v7(){
+	gris(4);
+    parle(1);
+    ecrit_text("Oui enfin, bon rends moi le bouquin maintenant.");
+}
+function v8(){
+	parle(4);
+    gris(1);
+    ecrit_text("Attends mais t'as la meme voix que la voix dans ma tête.");
+}
+function v9(){
+	gris(4);
+    parle(1);
+    ecrit_text("Idiot, il n'y a jamais eu de voix dans ta tete, c'etait mon robot et je t'ais guidé pour récupérer mon bouquin.");
+}
+function v10(){
+	gris(1);
+    gris(4);
+    ecrit_text("Le robot retourne sur son épaule.");
+}
+function v11(){
+	parle(4);
+    gris(1);
+    ecrit_text("Aah mais mais, je croyais qu'on était pote, mon pote.");
+}
+function v12(){
+	parle(1);
+    gris(4);
+    ecrit_text("Je suis pas ton pote, mon gars, bon maintenant tire toi avant que j'appelle le reste de la sécurité.");
+}
+function v13(){
+	parle(4);
+    gris(1);
+    ecrit_text("Mais pourquoi tout ceci, pour ce simple bouquin ?");
+}
+function v14(){
+	parle(1);
+    gris(4);
+    ecrit_text("C'est le livre de recette de ma grand-mère, je voulais pas me faire tuer.");
+}
+function v15(){
+	parle(1);
+    gris(4);
+    ecrit_text("Rentres chez toi gamin maintenant.");
+}
+function w1(){
+	display_perso(1, "mechant", "idle");
+    display_perso(4, "billy", "idle");
+    gris(1);
+    parle(4);
+    ecrit_text("Que m’arrive-t-il ? j’ai mal au crâne, je me sens tout bizarre.");
+}
+function w2(){
+	parle(1);
+    gris(4);
+    ecrit_text("Tu me surprends je dois l’avouer, tu as passé pas mal d’épreuves avec brio.");
+}
+function w3(){
+	parle(4);
+    gris(1);
+    ecrit_text("Aie je sens qu’il y a comme une porte qui s’est ouverte dans mon esprit, je commence à penser à plein de choses, à… réfléchir.");
+}
+function w4(){
+	gris(1);
+    gris(4);
+    ecrit_text("Le robot retourne sur son épaule.");
+}
+function w5(){
+	parle(1);
+    gris(4);
+    ecrit_text("Hum intéressant, tu as peut-être beaucoup évolué au cours de ton voyage, mais en tout cas tu m’as beaucoup diverti et j’aimerais bien reprendre mon bouquin.");
+}
+function w6(){
+	parle(4);
+    gris(1);
+    ecrit_text("Depuis le début c’était vous le robot, ah j’aurais du m’en douter ! Tenez voila le livre, je vous le rends.");
+}
+function w7(){
+	parle(1);
+    gris(4);
+    ecrit_text("Oh tu sais ce n’est que le cahier de recette de ma grand-mère, comme tu m’as beaucoup intrigué et amusé tu peux le garder, et puis de toute façon les plats qu’elle me mijote sont moisis.");
+}
+function w8(){
+	parle(4);
+    gris(1);
+    ecrit_text("Super ! Je me suis beaucoup amusé aussi, j’ai l’impression d’être devenu un nouvel homme, je me sens encore tout drôle ");	
+}
+function x1(){
+	display_perso(1, "mechant", "idle");
+    display_perso(4, "billy", "idle");
+    parle(4);
+    gris(1);
+    ecrit_text("C'est terminé maintenant ? ");
+}
+function x2(){
+	parle(1);
+    gris(4);
+    ecrit_text("C'est pas toi qui décide, c'est que le début.");
+}
+function x3(){
+	parle(4);
+    gris(1);
+    ecrit_text("Hein, mais non je pars, c'est crêpe ce soir à la maison.");
+}
+function x4(){
+	parle(1);
+    gris(4);
+    ecrit_text("Tu pars pas mon petit, pas ce soir.");
+}
+function x5(){
+	gris(1);
+    gris(4);
+    ecrit_text("Le robot retourne sur son épaule.");
+}
+function x6(){
+	parle(4);
+    gris(1);
+    ecrit_text("Donc c'était vous depuis le début qui me parlais ?? J'ai pas de voix dans ma tête ? .");
+}
+function x7(){
+	parle(1);
+    gris(4);
+    ecrit_text("Je m'amusais un peu avec toi, en plus il me fallais que me rendre mon bouquin, c'est le cahier de recette de ma grand-mère.");
+}
+function x8(){
+	parle(4);
+    gris(1);
+    ecrit_text("Donc je me baladais dans un monde parallèle au péril de ma vie tout ça pour ça?");
+}
+function x9(){
+	parle(1);
+    gris(4);
+    ecrit_text("Oui, maintenant tu es mon esclave.");
+}
+
 //ALEA
 function getRandomIntInclusive(min, max) {
   	min = Math.ceil(min);
@@ -822,7 +2386,7 @@ $('main').on('click','#button_play.e4v',function(){
 	$("#element4").css({"height": "80px", "width": "20px", "left": "235px", "top": "260px", "background-color": "black", "position": "absolute", "transition": "0.01s"});
 	//text
 	$("#element5").css({"width": "600px", "font-size": "40px", "top": "450px", "left": "150px", "position": "absolute"});
-	$("#element5").html("Appuyez sur la barre Espace !");
+	$("#element5").html("Appuyez sur la barre Espace pour atteidre le centre ! Réussissez 3 essais sur 5 pour remporter la victoire !");
 
 
 	var x = 235;
@@ -869,6 +2433,11 @@ $('main').on('click','#button_play.e4v',function(){
 				$('#pop').css("display","none");
 				clear_minigame();
 				clearInterval(time);
+				if (end.value = 0){
+					result.value = 2;
+				}else if (won.value == 3){
+					result.value = 1;
+				}
 			}else{
 				timer = window.setInterval(function(){
 					inTimer();
@@ -1020,11 +2589,13 @@ $('main').on('click','#button_play.e4d',function(){
 			stoptime = setTimeout(function(){
 				$('#pop').css("display","none");
 				clear_minigame();
+				result.value = 2;
 			},1500)
 		}else if (win == 4){
 			stoptime = setTimeout(function(){
 				$('#pop').css("display","none");
 				clear_minigame();
+				result.value = 1;
 			},1500)
 		}
 	})
@@ -1061,6 +2632,7 @@ $('main').on('click','#button_play.e5',function(){
 		if($('input').val() == 'grotte'){
 			$('#pop').css("display","none");
 			clear_minigame();
+			result.value = 1;
 			window.clearInterval(errorI);
 		}})
 	errorI = window.setInterval(function(){
@@ -1073,6 +2645,7 @@ $('main').on('click','#button_play.e5',function(){
 				$('#pop').css("display","none");
 				window.clearInterval(errorI);
 				clear_minigame();
+				result.value = 2;
 			}
 		}
 	},2000)
