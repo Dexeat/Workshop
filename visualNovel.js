@@ -129,7 +129,7 @@ function realisateur(event){
 							break;
 					}
 				case ("d"):
-					if (nbr.value < 22){
+					if (nbr.value < 23){
 						nbr.value++;
 					}
 					switch (nbr.value){
@@ -198,6 +198,9 @@ function realisateur(event){
 							break;
 						case 22:
 							d22();
+							break;
+						case 23:
+							d23();
 							if (result.value == 1){
 								letter.value = "e";
 								nbr.value = 0;
@@ -218,34 +221,34 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							e(1);
+							e1();
 							break;
 						case 2:
-							e(2);
+							e2();
 							break;
 						case 3:
-							e(3);
+							e3();
 							break;
 						case 4:
-							e(4);
+							e4();
 							break;
 						case 5:
-							e(5);
+							e5();
 							break;
 						case 6:
-							e(6);
+							e6();
 							break;
 						case 7:
-							e(7);
+							e7();
 							break;
 						case 8:
-							e(8);
+							e8();
 							break;
 						case 9:
-							e(9);
+							e9();
 							break;
 						case 10:
-							e(10);
+							e10();
 							if (result.value == 1){
 								letter.value = "g";
 								nbr.value = 0;
@@ -266,25 +269,25 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							f(1);
+							f1();
 							break;
 						case 2:
-							f(2);
+							f2();
 							break;
 						case 3:
-							f(3);
+							f3();
 							break;
 						case 4:
-							f(4);
+							f4();
 							break;
 						case 5:
-							f(5);
+							f5();
 							break;
 						case 6:
-							f(6);
+							f6();
 							break;
 						case 7:
-							f(7);
+							f7();
 							if (result.value == 1){
 								letter.value = "e";
 								nbr.value = 0;
@@ -305,16 +308,16 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							g(1);
+							g1();
 							break;
 						case 2:
-							g(2);
+							g2();
 							break;
 						case 3:
-							g(3);
+							g3();
 							break;
 						case 4:
-							g(4);
+							g4();
 							nbr.value = 0;
 							letter.value = "k";
 							break;
@@ -326,13 +329,13 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							h(1);
+							h1();
 							break;
 						case 2:
-							h(2);
+							h2();
 							break;
 						case 3:
-							h(3);
+							h3();
 							nbr.value = 0;
 							letter.value = "k";
 							break;
@@ -344,10 +347,10 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							i(1);
+							i1();
 							break;
 						case 2:
-							i(2);
+							i2();
 							nbr.value = 0;
 							letter.value = "k";
 							break;
@@ -359,19 +362,19 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							j(1);
+							j1();
 							break;
 						case 2:
-							j(2);
+							j2();
 							break;
 						case 3:
-							j(3);
+							j3();
 							break;
 						case 4:
-							j(4);
+							j4();
 							break;
 						case 5:
-							j(5);
+							j5();
 							nbr.value = 0;
 							letter.value = "k";
 							break;
@@ -383,28 +386,28 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							k(1);
+							k1();
 							break;
 						case 2:
-							k(2);
+							k2();
 							break;
 						case 3:
-							k(3);
+							k3();
 							break;
 						case 4:
-							k(4);
+							k4();
 							break;
 						case 5:
-							k(5);
+							k5();
 							break;
 						case 6:
-							k(6);
+							k6();
 							break;
 						case 7:
-							k(7);
+							k7();
 							break;
 						case 8:
-							k(8);
+							k8();
 							if (result.value == 1){
 								letter.value = "l";
 								nbr.value = 0;
@@ -440,31 +443,31 @@ function realisateur(event){
 					}
 					switch (nbr.value){
 						case 1:
-							m(1);
+							m1();
 							break;
 						case 2:
-							m(2);
+							m2();
 							break;
 						case 3:
-							m(3);
+							m3();
 							break;
 						case 4:
-							m(4);
+							m4();
 							break;
 						case 5:
-							m(5);
+							m5();
 							break;
 						case 6:
-							m(6);
+							m6();
 							break;
 						case 7:
-							m(7);
+							m7();
 							break;
 						case 8:
-							m(8);
+							m8();
 							break;
 						case 9:
-							m(9);
+							m9();
 							nbr.value = 0;
 							letter.value = "n";
 							break;
@@ -929,6 +932,10 @@ function intro1(){
 }
 function intro2(){
 	ecrit_text("");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e1");
 }
@@ -981,6 +988,9 @@ function a10(){
 }
 function a11(){
 	ecrit_text("");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
 	display_perso(4,"void","void");
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e2");
@@ -1151,7 +1161,15 @@ function d22(){
     gris(3);
     parle(1);
     ecrit_text("Aide moi a trouver les différentes pièces du bazooka. Clique sur les différentes choses qui te paraissent bizarres ");
-    $('#button_play').css("display", "block");
+    
+}
+function d23(){
+	ecrit_text("");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
+	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e3");
 }
 //E3 victoire
@@ -1223,6 +1241,10 @@ function e9(){
     ecrit_text("Euh très bien je vous prends et je vais au stand de tir");
 }
 function e10(){
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e4v");
 }
@@ -1261,9 +1283,10 @@ function f6(){
 function f7(){
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e4d");
-	display_perso(1, "void", "void");
-    display_perso(3, "void", "void");
-    display_perso(4, "void", "void");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
 }
 function g1(){//E4a victoire
 	display_perso(1, "bazooka", "idle");
@@ -1416,9 +1439,10 @@ function k7(){
 function k8(){
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e5");
-	display_perso(1, "void", "void");
-    display_perso(3, "void", "void");
-    display_perso(4, "void", "void");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
 }
 function l1(){
 	display_perso(1, "bazooka", "idle");
@@ -1681,9 +1705,10 @@ function o16(){
 function o17(){
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e6v");
-	display_perso(1, "void", "void");
-    display_perso(3, "void", "void");
-    display_perso(4, "void", "void");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
 }
 function p1(){
 	display_perso(1, "champignon", "idle");
@@ -1781,9 +1806,10 @@ function p14(){
 function p15(){
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e6d");
-	display_perso(1, "void", "void");
-    display_perso(3, "void", "void");
-    display_perso(4, "void", "void");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
 }
 function q1(){//6v v
 	display_perso(1, "réparateur1", "idle");
@@ -1968,9 +1994,10 @@ function u1(){
 function u2(){
 	$('#button_play').css("display", "block");
 	$('#button_play').addClass("e7");
-	display_perso(1, "void", "void");
-    display_perso(3, "void", "void");
-    display_perso(4, "void", "void");
+	display_perso(1,"void","void");
+	display_perso(2,"void","void");
+	display_perso(3,"void","void");
+	display_perso(4,"void","void");
 }
 function v1(){
 	display_perso(1, "mechant", "happy");
@@ -2654,7 +2681,7 @@ $('main').on('click', '#button_play.e6v',function(){
  	e6(1);
  });
 $('main').on('click','#button_play.e6d',function(){
- 	e6(1);
+ 	e6(2);
  });
 
 function e6(param){
@@ -2771,6 +2798,13 @@ function e6(param){
 			end = setInterval(function(){
 					$('#pop').css("display","none");
 					clear_minigame();
+					result.value = 1;
+			},2000)
+		}else if (coup.value == 0){
+			end = setInterval(function(){
+					$('#pop').css("display","none");
+					clear_minigame();
+					result.value = 2;
 			},2000)
 		}
 	}
