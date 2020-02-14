@@ -2654,7 +2654,7 @@ $('main').on('click', '#button_play.e6v',function(){
  	e6(1);
  });
 $('main').on('click','#button_play.e6d',function(){
- 	e6(1);
+ 	e6(2);
  });
 
 function e6(param){
@@ -2771,6 +2771,13 @@ function e6(param){
 			end = setInterval(function(){
 					$('#pop').css("display","none");
 					clear_minigame();
+					result.value = 1;
+			},2000)
+		}else if (coup.value == 0){
+			end = setInterval(function(){
+					$('#pop').css("display","none");
+					clear_minigame();
+					result.value = 2;
 			},2000)
 		}
 	}
