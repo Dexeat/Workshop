@@ -5,7 +5,7 @@ var textOn = {value: 0};
 //cette variable sera altérée par les minijeux anoçant la victoire ou la défaite du joueur
 var result = {value: 0};
 var nbr = {value: 0};
-var letter = {value: "b"};//a CHANGER
+var letter = {value: "intro"};//a CHANGER
 display_perso(1,"void","void");
 display_perso(2,"void","void");
 display_perso(3,"void","void");
