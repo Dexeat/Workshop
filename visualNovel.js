@@ -2280,13 +2280,13 @@ $('main').on('click','#button_play.e1',function(){
 $('main').on('click','#button_play.e2',function(){
 	let vie = 2;
 	let game_end = 0;
-	$('.popup').css("background-color", "mediumorchid");
-	$("#element1").css({'height':'70px','width':'550px','background-color':'white','position':'absolute','top':'65px','left':'120px','padding':'8px'});
-	$('#element3').css({'border':'solid','height':'400px','width':'65px','position':'absolute','top':'160px','left':'605px'});
-	$("#element4").css({'height':'50px','width':'50px','position':'absolute','top':'300px','left':'120px'});
-	$('#element4_img').css({'height':'50px','width':'50px','position':'absolute','top':'0px','left':'20px'}).attr("src","assets/symbole/touche.jpg");
-	$('#element2').css({'border':'solid','height':'400px','width':'550px','position':'absolute','top':'160px','left':'120px'});
-	$('#element5').css({'border':'solid','height':'50px','width':'50px','position':'absolute','top':'300px','left':'500px'});
+	$('.popup').css("background-image", 'url(assets/symbole/tableau1.jpg)');
+	$("#element1").css({'height':'70px','width':'550px','position':'absolute','top':'95px','left':'150px','padding':'8px','color':'yellow'});
+	$('#element3').css({'height':'500px','width':'100px','position':'absolute','top':'25px','left':'520px'});
+	$("#element4").css({'height':'100px','width':'100px','position':'absolute','top':'300px','left':'120px'});
+	$('#element4_img').css({ 'height': '65px', 'width': '65px', 'position': 'absolute', 'top': '-65px', 'left': '-5px' }).attr("src","assets/symbole/bouton_orange.png");
+	$('#element2').css({'height': '400px', 'width': '550px', 'position': 'absolute', 'top': '160px', 'left': '120px'});
+	$('#element5').css({'height':'65px','width':'65px','position':'absolute','top':'235px','left':'400px'});
 	
 	$("#element1").addClass("e1");
 	$('#element3').addClass("e1");
@@ -2298,7 +2298,7 @@ $('main').on('click','#button_play.e2',function(){
 	$('#element4_img.e1').draggable();
 	$('#element5.e1').droppable({drop: function(event,ui){
 		game_end = 1;
-		$('#element4_img.e1').css({'top':'2px','left':'382px'});
+		$('#element4_img.e1').css({'top':'-65px','left':'282px'});
 	}})
 	$("#element1.e1").html("VIE RESTANTE : "+vie);
 
@@ -2334,17 +2334,17 @@ $('main').on('click','#button_play.e2',function(){
 })
 $('main').on('click','#button_play.e3',function(){
 	var nb = 10;
-	$('.popup').css("background-color", "mediumorchid");
-	$('#element1').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'50px','left':'20px'}).addClass("e3");
-	$('#element2').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'40px','left':'200px'}).addClass("e3");
-	$('#element3').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'450px','left':'60px'}).addClass("e3");
-	$('#element4').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'500px','left':'70px'}).addClass("e3");
-	$('#element5').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'50px','left':'250px'}).addClass("e3");
-	$('#element6').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'360px','left':'80px'}).addClass("e3");
-	$('#element7').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'10px','left':'400px'}).addClass("e3");
-	$('#element8').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'500px','left':'3px'}).addClass("e3");
-	$('#element9').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'45px','left':'320px'}).addClass("e3");
-	$('#element10').css({'border':'solid red','height':'20px','width':'20px','position':'absolute','top':'430px','left':'590px'}).addClass("e3");
+	$('.popup').css("background-image", "url(assets/background/grotte.jpg)");
+	$('#element1').css({'height':'50px','width':'80px','position':'absolute','top':'39px','left':'60px'}).addClass("e3");
+	$('#element2').css({'height':'80px','width':'30px','position':'absolute','top':'60px','left':'710px'}).addClass("e3");
+	$('#element3').css({'height':'80px','width':'150px','position':'absolute','top':'230px','left':'170px'}).addClass("e3");
+	$('#element4').css({'height':'40px','width':'200px','position':'absolute','top':'520px','left':'50px'}).addClass("e3");
+	$('#element5').css({'height':'60px','width':'80px','position':'absolute','top':'370px','left':'680px'}).addClass("e3");
+	$('#element6').css({'height':'40px','width':'30px','position':'absolute','top':'390px','left':'90px'}).addClass("e3");
+	$('#element7').css({'height':'80px','width':'250px','position':'absolute','top':'235px','left':'460px'}).addClass("e3");
+	$('#element8').css({'height': '40px', 'width':'200px','position':'absolute','top':'500px','left':'430px'}).addClass("e3");
+	$('#element9').css({'height':'60px','width':'40px','position':'absolute','top':'360px','left':'345px'}).addClass("e3");
+	$('#element10').css({'height':'100px','width':'80px','position':'absolute','top':'470px','left':'670px'}).addClass("e3");
 
 	$("#container_pop").css({"height": "50px", "width": "50px", "top": "45px", "left": "700px","visibility":"visible"});
 	$("#text_pop").css({"margin": "8px", "font-size": "30px"});
